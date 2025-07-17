@@ -1,3 +1,15 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+# Exclude .direnv
+.direnv
+
+# Eclude precommit hooks config
+.pre-commit-config.yaml
+
 # Minecraft instance specific files
 *.log
 *.lck
