@@ -3,10 +3,10 @@ name: Upload Modpack to CurseForge
 on:
   release:
     types: [published]
-  # or:
-  # push:
-  #   branches:
-  #     - main
+    or:
+     push:
+     branches:
+       - main
 
 jobs:
   upload:
