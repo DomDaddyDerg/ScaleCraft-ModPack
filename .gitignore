@@ -1,3 +1,15 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+# Exclude .direnv
+.direnv
+
+# Eclude precommit hooks config
+.pre-commit-config.yaml
+
 # Minecraft instance specific files
 *.log
 *.lck
@@ -34,8 +46,6 @@ desktop.ini
 logs/
 crash-reports/
 saves/
-resourcepacks/
-shaderpacks/
 mods/
 options.txt
 usercache.json
@@ -46,3 +56,22 @@ servers.dat_old
 minecraftinstance.json
 knownkeys.txt
 .curseclient
+.probe
+spark-modernfix/
+waypoints/
+patchouli_books/
+command_history.txt
+schematics/
+observable_profiles/
+moddata/
+local/
+blueprints/
+defaultconfigs/
+downloads/
+dragon-survival/
+journeymap/
+ESM/
+observable_announce
+assets/
+.mixin.out/
+patchouli_data.json

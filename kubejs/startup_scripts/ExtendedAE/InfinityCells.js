@@ -108,7 +108,7 @@ StartupEvents.registry('item', ScaleCraft => {
     //Ancient Stone
     ScaleCraft.create('ancient_stone_cell', 'custom_infinity_cell')
         .texture('kubejs:item/ancient_stone_cell')
-        .itemType('allthemodium:ancient_stone')
+        .itemType('alltheores:ancient_stone')
         .cellModel('kubejs:block/drive/ancient_stone_cell');
 
     //White dye
