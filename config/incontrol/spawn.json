@@ -28,5 +28,30 @@
         "mob": "minecraft:enderman",
         "mincount": 15,
         "result": "deny"
+      },
+      {
+        "mob": "minecraft:witch",
+        "mincount": 15,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:slime",
+        "mincount": 15,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:ghast",
+        "mincount": 15,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:blaze",
+        "mincount": 15,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:guardian",
+        "mincount": 15,
+        "result": "deny"
       }
 ]
