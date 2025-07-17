@@ -1,0 +1,1234 @@
+{
+  "allowedTrees": [
+    {
+      "sapling": "minecraft:oak_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:oak_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:oak_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:apple",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:birch_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:birch_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:birch_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:spruce_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:spruce_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:spruce_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:jungle_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:jungle_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:jungle_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:cocoa_beans",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:acacia_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:acacia_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:acacia_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:dark_oak_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:dark_oak_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:dark_oak_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:apple",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:mangrove_propagule",
+      "validSoils": [
+        "minecraft:mud",
+        "minecraft:muddy_mangrove_roots",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:mangrove_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:mangrove_propagule",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:mangrove_roots",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 0.3
+        },
+        {
+          "item": "minecraft:mangrove_roots",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:cherry_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:cherry_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:cherry_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:azalea",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:rooted_dirt",
+        "minecraft:moss_block",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:oak_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:azalea",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:moss_block",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:flowering_azalea",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:rooted_dirt",
+        "minecraft:moss_block",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:oak_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:flowering_azalea",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:moss_block",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:crimson_fungus",
+      "validSoils": [
+        "minecraft:crimson_nylium",
+        "minecraft:warped_nylium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:crimson_stem",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:nether_wart_block",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:weeping_vines",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:shroomlight",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "sapling": "minecraft:warped_fungus",
+      "validSoils": [
+        "minecraft:crimson_nylium",
+        "minecraft:warped_nylium"
+      ],
+      "drops": [
+        {
+          "item": "minecraft:warped_stem",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:warped_wart_block",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:twisting_vines",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:shroomlight",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "sapling": "ars_elemental:yellow_archwood_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "ars_elemental:yellow_archwood_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "ars_elemental:yellow_archwood_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.3
+        },
+        {
+          "item": "ars_elemental:flashpine_pod",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "ars_nouveau:blue_archwood_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "ars_nouveau:blue_archwood_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "ars_nouveau:blue_archwood_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.3
+        },
+        {
+          "item": "ars_nouveau:frostaya_pod",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "ars_nouveau:red_archwood_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "ars_nouveau:red_archwood_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "ars_nouveau:red_archwood_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.3
+        },
+        {
+          "item": "ars_nouveau:bombegranate_pod",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "ars_nouveau:purple_archwood_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "ars_nouveau:purple_archwood_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "ars_nouveau:purple_archwood_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.3
+        },
+        {
+          "item": "ars_nouveau:bastion_pod",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "ars_nouveau:green_archwood_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "ars_nouveau:green_archwood_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "ars_nouveau:green_archwood_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.3
+        },
+        {
+          "item": "ars_nouveau:mendosteen_pod",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 0.2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "twilightforest:twilight_oak_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "twilightforest:twilight_oak_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "twilightforest:twilight_oak_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "twilightforest:canopy_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "twilightforest:canopy_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "twilightforest:canopy_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "twilightforest:mangrove_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "twilightforest:mangrove_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "twilightforest:mangrove_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "twilightforest:darkwood_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "twilightforest:dark_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "twilightforest:darkwood_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "twilightforest:rainbow_oak_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "twilightforest:twilight_oak_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "twilightforest:rainbow_oak_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "evilcraft:undead_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "evilcraft:undead_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:dead_bush",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "sapling": "forbidden_arcanus:aurum_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "forbidden_arcanus:aurum_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "forbidden_arcanus:aurum_sapling",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "sapling": "forbidden_arcanus:growing_edelwood",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "forbidden_arcanus:edelwood_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "forbidden_arcanus:carved_edelwood_log",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "sapling": "integrateddynamics:menril_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "integrateddynamics:menril_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "integrateddynamics:menril_sapling",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "integrateddynamics:crystalized_menril_chunk",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "integrateddynamics:menril_berries",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "chance": 0.5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "occultism:otherworld_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "occultism:otherworld_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "occultism:otherworld_sapling",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "sapling": "hexerei:mahogany_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "hexerei:mahogany_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "hexerei:mahogany_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "hexerei:willow_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "hexerei:willow_log",
+          "count": {
+            "min": 4,
+            "max": 8
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "hexerei:willow_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "sapling": "hexerei:witch_hazel_sapling",
+      "validSoils": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:coarse_dirt",
+        "minecraft:mycelium"
+      ],
+      "drops": [
+        {
+          "item": "hexerei:witch_hazel_log",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "hexerei:witch_hazel_sapling",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:stick",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "chance": 0.5
+        }
+      ]
+    }
+  ],
+  "allowedSoils": [
+    {
+      "soil": "minecraft:dirt",
+      "growthModifier": 0.5
+    },
+    {
+      "soil": "minecraft:coarse_dirt",
+      "growthModifier": 0.475
+    },
+    {
+      "soil": "minecraft:podzol",
+      "growthModifier": 0.6
+    },
+    {
+      "soil": "minecraft:mud",
+      "growthModifier": 0.525
+    },
+    {
+      "soil": "minecraft:muddy_mangrove_roots",
+      "growthModifier": 0.65
+    },
+    {
+      "soil": "minecraft:rooted_dirt",
+      "growthModifier": 0.55
+    },
+    {
+      "soil": "minecraft:moss_block",
+      "growthModifier": 0.575
+    },
+    {
+      "soil": "minecraft:grass_block",
+      "growthModifier": 0.55
+    },
+    {
+      "soil": "minecraft:mycelium",
+      "growthModifier": 0.55
+    },
+    {
+      "soil": "minecraft:crimson_nylium",
+      "growthModifier": 0.6
+    },
+    {
+      "soil": "minecraft:warped_nylium",
+      "growthModifier": 0.6
+    }
+  ]
+}

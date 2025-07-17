@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "scalecraft:crimson_forest",
+    "scalecraft:warped_forest",
+    "scalecraft:the_other",
+    "scalecraft:soul_sand_valley",
+    "scalecraft:desert",
+    "scalecraft:desert_hills"
+  ]
+}

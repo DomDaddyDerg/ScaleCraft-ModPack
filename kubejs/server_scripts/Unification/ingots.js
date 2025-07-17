@@ -1,0 +1,32 @@
+
+ServerEvents.recipes(ScaleCraft => {
+    // Crafting
+    ScaleCraft.remove({ id: 'silentgear:bronze_ingot'})
+    ScaleCraft.remove({ id: 'mysticalagriculture:essence/extremereactors2/yellorium_ingot'})
+    ScaleCraft.remove({ id: 'modern_industrialization:materials/bronze_dust'})
+
+    // Smelting
+    ScaleCraft.remove({ id: 'deeperdarker:coal_from_smelting_gloomslate_coal_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:coal_from_blasting_gloomslate_coal_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:iron_ingot_from_smelting_gloomslate_iron_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:iron_ingot_from_blasting_gloomslate_iron_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:copper_ingot_from_smelting_gloomslate_copper_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:copper_ingot_from_blasting_gloomslate_copper_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:gold_ingot_from_smelting_gloomslate_gold_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:gold_ingot_from_blasting_gloomslate_gold_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:redstone_from_smelting_gloomslate_redstone_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:redstone_from_blasting_gloomslate_redstone_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:emerald_from_smelting_gloomslate_emerald_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:emerald_from_blasting_gloomslate_emerald_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:lapis_lazuli_from_smelting_gloomslate_lapis_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:lapis_lazuli_from_blasting_gloomslate_lapis_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:diamond_from_smelting_gloomslate_diamond_ore'})
+    ScaleCraft.remove({ id: 'deeperdarker:diamond_from_blasting_gloomslate_diamond_ore'})
+    ScaleCraft.remove({ id: 'mekanism:processing/lead/ingot/from_ore_smelting'})
+    ScaleCraft.remove({ id: 'mekanism:processing/lead/ingot/from_ore_blasting'})
+    ScaleCraft.remove({ id: 'mekanism:processing/osmium/ingot/from_ore_smelting'})
+    ScaleCraft.remove({ id: 'mekanism:processing/osmium/ingot/from_ore_blasting'})
+    ScaleCraft.remove({ id: 'mekanism:processing/tin/ingot/from_ore_smelting'})
+    ScaleCraft.remove({ id: 'mekanism:processing/tin/ingot/from_ore_blasting'})
+    ScaleCraft.remove({ id: 'immersiveengineering:smelting/ingot_uranium'})
+})

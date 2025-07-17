@@ -1,0 +1,13 @@
+name = "ScaleCraft Chronicles of The Arcane"
+author = "DomDaddyDerg"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "22e56d94c73754cbadfc97e5fa5c4b8233c77ef41e67b35033694399542d66df"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.187"

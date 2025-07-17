@@ -1,0 +1,6 @@
+#Client settings
+[client]
+	#Should the hunger bar have a gilded overlay when the player has the Nourishment effect?
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	tremorVolume = 0.75
