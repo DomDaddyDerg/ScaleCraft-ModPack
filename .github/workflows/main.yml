@@ -1,0 +1,32 @@
+name: Upload Modpack to CurseForge
+
+on:
+  release:
+    types: [published]
+  # or:
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Upload Modpack
+        uses: henkelmax/upload-curseforge-modpack-action@v1
+        with:
+          # Required: Your CurseForge API key (get from your profile)
+          curseforge_api_key: "f9f44088-b0db-4c59-adb2-4690d4e8b78c"
+          # Required: Your CurseForge project ID
+          project_id: "1134042"
+          # Required: Path to your modpack .zip file
+          filepath: ./modpack.zip
+          # Optional: Release type (release, beta, alpha)
+          release_type: alpha
+          # Optional: Game version
+          game_version: "1.21.1"
+          # Optional: Mod loader
+          modloader: "Neoforge"
+          # Optional: Changelog
+          changelog: "Automated release via GitHub Actions"
