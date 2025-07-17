@@ -1,0 +1,48 @@
+# Minecraft instance specific files
+*.log
+*.lck
+*.tmp
+*.bak
+*.dat
+*.pid
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE/project files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Backup files
+*~
+*.old
+*.orig
+
+# Forge/Minecraft specific
+logs/
+crash-reports/
+saves/
+resourcepacks/
+shaderpacks/
+mods/
+options.txt
+usercache.json
+launcher_profiles.json
+servers.dat
+usernamecache.json
+servers.dat_old
+minecraftinstance.json
+knownkeys.txt
+.curseclient

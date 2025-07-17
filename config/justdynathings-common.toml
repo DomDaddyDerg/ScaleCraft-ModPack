@@ -1,0 +1,297 @@
+#General
+[1-general]
+	#Disable GuideMe warning
+	disable_guideme_warning = false
+	#Hello player, Dyna is here !
+	#If you're wondering that this config part
+	#is used as joke , you are right...
+	#Anyway , can I be of help to you ?
+	answer = false
+
+#Blocks
+[2-blocks]
+	#Phase Box
+	#Require any wrench to change Phase Box state intend of nothing
+	phasebox_requireWrench = false
+	#Ferricore Clock
+	#Require any wrench to change Ferricore Clock face state intend of nothing
+	ferricoreclock_requireWrench = false
+	#Revitalizer
+	#Total FE Capacity
+	# Default: 10000
+	# Range: > 1
+	revitalizer_maxFE = 10000
+	#FE/t cost
+	# Default: 1000
+	# Range: > 1
+	revitalizer_FErate = 1000
+	#Enable/Disable sound when revitalized a goo
+	revitalizer_sound = true
+	#Chance to apply FE cost when revitalized a goo
+	# Default: 50
+	# Range: 1 ~ 100
+	revitalizer_cost_chance = 50
+	#Thermo Generator
+	#Total FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	thermogen_maxfe = 1000000
+	#Total Coolant Capacity
+	# Default: 100000
+	# Range: > 1
+	thermogen_maxmb = 100000
+	#Blackhole
+	#Keep stored stuff when redstone disable it
+	blackhole_keep = true
+	#Total FE Capacity
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_maxfe = 2147483647
+	#FE/t cost
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_ferate = 2147483647
+	#Total Fluid Capacity
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_maxmb = 2147483647
+	#MB/t cost
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_mbrate = 2147483647
+
+#Echoing Budding
+[3-echoing_budding]
+	#general_echoing_budding
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	budding_general_maxmb = 10000
+	#MB/t cost
+	# Default: 100
+	# Range: > 1
+	budding_general_mbrate = 100
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	budding_general_maxfe = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	budding_general_ferate = 100
+	#Chance to apply FE cost when a cluster will grow
+	budding_general_fechance = true
+	#Chance to apply MB cost when a cluster will grow
+	budding_general_mbchance = true
+	#Enable/Disable sound of buddings when grow
+	budding_general_sound = true
+
+#Goo
+[4-goo]
+	#Creative Goo
+	#Enable/Disable sound on goo state change
+	goo_creative_sound_state = true
+	#Tier of goo
+	# Default: 2147483647
+	# Range: > 1
+	goo_creative_tier = 2147483647
+	#Counter Reducer of goo
+	# Default: 2147483647
+	# Range: > 1
+	goo_creative_counter_reducer = 2147483647
+	#Enable/Disable sound on goo recipe execution
+	goo_creative_sound_recipe = true
+	#Generic FE Goo powered
+	#Max FE capacity
+	# Default: 10000
+	# Range: > 1
+	goo_fegoo_maxfe = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	goo_fegoo_ferate = 100
+	#Enable/Disable tier capacity multiplier
+	goo_fegoo_maxfe_multiply = true
+	#Enable/Disable tier capacity multiplier
+	goo_fegoo_ferate_multiply = true
+	#Enable/Disable sound on goo recipe execution
+	goo_fegoo_sound_recipe = true
+	#Enable/Disable sound on goo recipe execution randomly
+	goo_fegoo_sound_extra = true
+	#Energized Goo
+	#Tier of goo
+	# Default: 5
+	# Range: > 1
+	goo_energized_tier = 5
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	goo_energized_counter_reducer = 15
+	#Charged Primogel Goo
+	#Tier of goo
+	# Default: 1
+	# Range: > 1
+	goo_charged_primogel_tier = 1
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	goo_charged_primogel_counter_reducer = 15
+	#Charged Blazebloom Goo
+	#Tier of goo
+	# Default: 2
+	# Range: > 1
+	goo_charged_blazebloom_tier = 2
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	goo_charged_blazebloom_counter_reducer = 15
+	#Charged Voidshimmer Goo
+	#Tier of goo
+	# Default: 3
+	# Range: > 1
+	goo_charged_voidshimmer_tier = 3
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	goo_charged_voidshimmer_counter_reducer = 15
+	#Charged Shadowpulse Goo
+	#Tier of goo
+	# Default: 4
+	# Range: > 1
+	goo_charged_shadowpulse_tier = 4
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	goo_charged_shadowpulse_counter_reducer = 15
+
+#Solar Panel
+[5-solar_panel]
+	#Ferricore Solar Panel
+	#FE Capacity
+	# Default: 100000
+	# Range: > 1
+	solar_ferricore_maxfe = 100000
+	#FE/t production
+	# Default: 240
+	# Range: > 1
+	solar_ferricore_ferate = 240
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	solar_ferricore_ylevel = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	solar_ferricore_spam = false
+	#Enable/Disable condition to see the sky
+	solar_ferricore_sky = true
+	#Enable/Disable condition of daytime only
+	solar_ferricore_day = true
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	solar_ferricore_biome_list = true
+	#Blazegold Solar Panel
+	#FE Capacity
+	# Default: 100000
+	# Range: > 1
+	solar_blazegold_maxfe = 100000
+	#FE/t production
+	# Default: 960
+	# Range: > 1
+	solar_blazegold_ferate = 960
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	solar_blazegold_ylevel = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	solar_blazegold_spam = false
+	#Enable/Disable condition to see the sky
+	solar_blazegold_sky = false
+	#Enable/Disable condition of daytime only
+	solar_blazegold_day = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	solar_blazegold_biome_list = true
+	#Celestigem Solar Panel
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	solar_celestigem_maxfe = 1000000
+	#FE/t production
+	# Default: 3840
+	# Range: > 1
+	solar_celestigem_ferate = 3840
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	solar_celestigem_ylevel = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	solar_celestigem_spam = true
+	#Enable/Disable condition to see the sky
+	solar_celestigem_sky = true
+	#Enable/Disable condition of daytime only
+	solar_celestigem_day = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	solar_celestigem_biome_list = false
+	#Eclipse Alloy Solar Panel
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	solar_eclipsealloy_maxfe = 1000000
+	#FE/t production
+	# Default: 11520
+	# Range: > 1
+	solar_eclipsealloy_ferate = 11520
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	solar_eclipsealloy_ylevel = true
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	solar_eclipsealloy_spam = true
+	#Enable/Disable condition to see the sky
+	solar_eclipsealloy_sky = false
+	#Enable/Disable condition of daytime only
+	solar_eclipsealloy_day = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	solar_eclipsealloy_biome_list = false
+
+#Anvil
+[6-anvil]
+	#Enable/Disable the entire sound event of all anvils on item repair
+	anvils_sound = true
+	#Ferricore Anvil
+	#Enable/Disable sound event on item repair
+	anvil_ferricore_sound = true
+	#Blazegold Anvil
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	anvil_blazegold_maxmb = 10000
+	#MB/t cost
+	# Default: 10
+	# Range: > 1
+	anvil_blazegold_mbrate = 10
+	#Enable/Disable sound event on item repair
+	anvil_blazegold_sound = true
+	#Celestigem Anvil
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	anvil_celestigem_maxfe = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	anvil_celestigem_ferate = 100
+	#Enable/Disable sound event on item repair
+	anvil_celestigem_sound = true
+	#Eclipse Alloy Anvil
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	anvil_eclipsealloy_maxmb = 10000
+	#MB/t cost
+	# Default: 100
+	# Range: > 1
+	anvil_eclipsealloy_mbrate = 100
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	anvil_eclipsealloy_maxfe = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	anvil_eclipsealloy_ferate = 100
+	#Minimal damage until it was counted as insta-repaireable
+	# Default: 1000
+	# Range: > 1
+	anvil_eclipsealloy_damage_limit = 1000
+	#Enable/Disable sound event on item repair
+	anvil_eclipsealloy_sound = true
