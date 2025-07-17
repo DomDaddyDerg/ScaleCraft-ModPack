@@ -1,6 +1,6 @@
 // priority 10
 
-if (config) {
+/*if (config) {
   let recipesToRemove = config?.server.remove_recipes_by
 
   if (recipesToRemove instanceof $ArrayList && !recipesToRemove.isEmpty()) {
@@ -10,4 +10,4 @@ if (config) {
       })
     })
   }
-}
+}*/

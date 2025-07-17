@@ -72,24 +72,24 @@
 	lock = false
 
 ["Attribute 8"]
-	display_name = ""
-	cmd_to_exc = [" "]
-	on_level_event = [" "]
-	tip_to_display = ""
-	init_val_attribute_eight = 0.0
-	max_level = 0.0
-	base_value_per_point = 0.0
-	lock = true
+	display_name = "&6Source : "
+	cmd_to_exc = ["/attribute @p ars_nouveau:ars_nouveau.perk.max_mana base set [param(1.0)]"]
+	on_level_event = ["/msg @p §6You_have_gained_more_source!"]
+	tip_to_display = "This attribute is used to increase your source pool for ars_nouveau"
+	init_val_attribute_eight = 100.0
+	max_level = 500.0
+	base_value_per_point = 1.0
+	lock = false
 
 ["Attribute 9"]
-	"display_name " = ""
-	cmd_to_exc = [" "]
-	on_level_event = [" "]
-	"tip_to_display " = ""
-	init_val_attribute_nine = 0.0
-	max_level = 0.0
-	base_value_per_point = 0.0
-	lock = true
+	"display_name " = "&6Magic : "
+	cmd_to_exc = ["/attribute @p irons_spellbooks:max_mana base set [param(1.0)]"]
+	on_level_event = [" /msg @p you_have_gained_more_mana!"]
+	"tip_to_display " = "This attribute is used to increase your mana pool for Iron's Spellbooks"
+	init_val_attribute_nine = 100.0
+	max_level = 500.0
+	base_value_per_point = 1.0
+	lock = false
 
 ["Attribute 10"]
 	"display_name " = ""

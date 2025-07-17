@@ -2,23 +2,6 @@
 	#Whether team support is enabled if a compatible mod (FTB Teams, Argonauts) is installed
 	teamSupportEnabled = true
 
-[expulsion_pylon]
-	#Which dimensions the Expulsion Pylon is allowed to operate in.
-	expulsionAllowedDimensions = ["minecraft:overworld", "allthemodium:the_beyond", "eternal_starlight:starlight", "compactmachines:compact_world"]
-	#The radius around the world spawn where the pylon is not allowed to operate.
-	#By default this uses the world spawn radius (/gamerule spawnRadius).
-	#This config will only take effect if it is larger than the world spawn radius.
-	# Default: 1
-	# Range: 1 ~ 512
-	expulsionWorldSpawnRadius = 1
-	#Whether the Expulsion Pylon can be destroyed with explosions.
-	expulsionPylonCanExplode = false
-	#Limit the max radius for expulsion pylons.
-	#Does not include center chunk, so a radius of 2 equals a 5x5 chunk diameter.
-	# Default: 2
-	# Range: 0 ~ 2
-	expulsionPylonMaxRadius = 2
-
 [infusion_pylon]
 	#The minimum effect duration (in seconds) that can be used for Potion Filters.
 	#This defaults to 60 seconds to prevent unintended interactions
@@ -74,3 +57,20 @@
 	# Default: 1000
 	# Range: 100 ~ 1000000
 	harvesterPowerBuffer = 1000
+
+[expulsion_pylon]
+	#Which dimensions the Expulsion Pylon is allowed to operate in.
+	expulsionAllowedDimensions = ["minecraft:overworld"]
+	#The radius around the world spawn where the pylon is not allowed to operate.
+	#By default this uses the world spawn radius (/gamerule spawnRadius).
+	#This config will only take effect if it is larger than the world spawn radius.
+	# Default: 1
+	# Range: 1 ~ 512
+	expulsionWorldSpawnRadius = 1
+	#Whether the Expulsion Pylon can be destroyed with explosions.
+	expulsionPylonCanExplode = false
+	#Limit the max radius for expulsion pylons.
+	#Does not include center chunk, so a radius of 2 equals a 5x5 chunk diameter.
+	# Default: 2
+	# Range: 0 ~ 2
+	expulsionPylonMaxRadius = 2

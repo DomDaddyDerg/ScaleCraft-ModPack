@@ -213,6 +213,13 @@
 		# Range: 1 ~ 1000
 		level = 100
 
+#Misc
+[misc]
+
+	[misc.misc]
+		# Enable or disable light-updates, furances will no longer emit light, true = disable
+		lightupdates = true
+
 #Modded Furnace Settings
 [modded_furnaces]
 
@@ -284,10 +291,3 @@
 		# Default: 2
 		# Range: 0 ~ 2
 		tier = 2
-
-#Misc
-[misc]
-
-	[misc.misc]
-		# Enable or disable light-updates, furances will no longer emit light, true = disable
-		lightupdates = true
